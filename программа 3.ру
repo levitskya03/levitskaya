@@ -1,0 +1,8 @@
+ 
+A = int(input('Введите A » '))
+A = str(A)
+A_reverse = A[::-1]
+if A_reverse == A:
+print('Число ' + A + ' является палиндромом')
+else:
+print('Число ' + A + ' не является палиндромом')
